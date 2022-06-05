@@ -12,7 +12,7 @@ describe("within index.html", () => {
   })
   it("contains a <p> tag", () => {
     expect(document.querySelector('body').innerHTML).to.include('<p>')
-  })
+  }) 
   it("within the <p>, it contains a <strong> tag", () => {
     expect(document.querySelector('p').innerHTML).to.include('<strong>')
   })
